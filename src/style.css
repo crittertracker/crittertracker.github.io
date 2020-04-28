@@ -8,13 +8,6 @@ thead{
     text-align: center;
     }
 
-#bName{
-  font-weight: bold;
-}
-
-#fName{
-  font-weight: bold;
-}
 
 table { 
   table-layout:fixed;
