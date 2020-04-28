@@ -16,7 +16,8 @@ table {
 td { 
   overflow: hidden; 
   text-overflow: ellipsis; 
-  word-wrap: break-word;
+  word-break: keep-all;
+  
 }
 
 @media only screen and (max-width: 480px) {
