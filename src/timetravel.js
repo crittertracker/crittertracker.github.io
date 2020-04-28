@@ -46,12 +46,12 @@ $.ajax({
         if (bug.time.indexOf(hour) > -1 && bug.month.indexOf(month) > -1) {
   
           var tableRow =
-            '<tr><td id="bName">' +
+            '<tr><td><b>' +
             bug.name.toUpperCase() +
-            '<br /><img src=' +
+            '</b><br /><img src=' +
             bug.image +
-            ' class="img-fluid" alt="responsive image"></td><td>' +
-            bug.rarity.toUpperCase() +
+            ' class="img-fluid" alt="responsive image"><hr />' +
+            bug.rarity.toLowerCase() +
             '</td><td>' +
             bug.price +
             '</td><td>' +
@@ -78,12 +78,12 @@ $.ajax({
         if (fish.time.indexOf(hour) > -1 && fish.month.indexOf(month) > -1) {
   
           var tableRow =
-            '<tr><td id="fName">' +
+            '<tr><td><b>' +
             fish.name.toUpperCase() +
-            '<br /><img src=' +
+            '</b><br /><img src=' +
             fish.image +
-            ' class="img-fluid" alt="responsive image"></td><td>' +
-            fish.rarity.toUpperCase() +
+            ' class="img-fluid" alt="responsive image"><hr />' +
+            fish.rarity.toLowerCase() +
             '</td><td>' +
             fish.price +
             '</td><td>' +
