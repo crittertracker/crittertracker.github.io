@@ -102,7 +102,7 @@ $.ajax({
           '<tr><td id="fName">' +
           (fish.name).toUpperCase() + '<br /><img src=' +
           fish.image +
-          ' class="img-fluid" alt="responsive image"></td><td>' +
+          ' class="img-fluid" alt="Responsive image"></td><td>' +
           (fish.rarity).toUpperCase() +
           '</td><td>' +
           fish.price +
@@ -171,7 +171,7 @@ $.ajax({
         bugCounter ++;
 
         var tableRow =
-          `<tr><td id="bName">${(bug.name).toUpperCase()}<br /><img src=${bug.image} class=\\"img-fluid\\" alt=\\"responsive image\\"></td><td>${bug.price}</td><td>${(bug.rarity).toUpperCase()}</td><td>${(bug.location).toUpperCase()}</td></tr>`;
+          `<tr><td id="bName">${(bug.name).toUpperCase()}<br /><img src=${bug.image} class="img-fluid" alt="responsive image"></td><td>${bug.price}</td><td>${(bug.rarity).toUpperCase()}</td><td>${(bug.location).toUpperCase()}</td></tr>`;
         $(tableRow).appendTo('#userdatabugs_nh tbody');
         
       }
@@ -195,7 +195,7 @@ $.ajax({
       if (bug.time.indexOf(h) > -1 && bug.month.indexOf(sMonth) > -1) {
         bugCounter ++;
         var tableRow =
-          `<tr><td id="bName">${(bug.name).toUpperCase()}<br /><img src=${bug.image} class=\\"img-fluid\\" alt=\\"responsive image\\"></td><td>${bug.price}</td><td>${(bug.rarity).toUpperCase()}</td><td>${(bug.location).toUpperCase()}</td></tr>`;
+          `<tr><td id="bName">${(bug.name).toUpperCase()}<br /><img src=${bug.image} class="img-fluid" alt="responsive image"></td><td>${bug.price}</td><td>${(bug.rarity).toUpperCase()}</td><td>${(bug.location).toUpperCase()}</td></tr>`;
         $(tableRow).appendTo('#userdatabugs_sh tbody');
         
       }
