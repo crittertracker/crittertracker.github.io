@@ -9,9 +9,6 @@ thead{
     }
 
 
-table { 
-  table-layout:fixed;
-}
 
 td { 
   overflow: hidden; 
