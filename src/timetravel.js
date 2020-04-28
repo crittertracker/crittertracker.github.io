@@ -46,14 +46,16 @@ $.ajax({
         if (bug.time.indexOf(hour) > -1 && bug.month.indexOf(month) > -1) {
   
           var tableRow =
-            '<tr><td>' +
-            bug.name +
-            '</td><td> <img src=' +
+            '<tr><td id="bName">' +
+            bug.name.toUpperCase() +
+            '<br /><img src=' +
             bug.image +
             ' class="img-fluid" alt="responsive image"></td><td>' +
+            bug.rarity.toUpperCase() +
+            '</td><td>' +
             bug.price +
             '</td><td>' +
-            bug.location +
+            bug.location.toUpperCase() +
             '</td></tr>';
           $(tableRow).appendTo('#timeloadbug tbody');
           
@@ -76,14 +78,16 @@ $.ajax({
         if (fish.time.indexOf(hour) > -1 && fish.month.indexOf(month) > -1) {
   
           var tableRow =
-            '<tr><td>' +
-            fish.name +
-            '</td><td> <img src=' +
+            '<tr><td id="fName">' +
+            fish.name.toUpperCase() +
+            '<br /><img src=' +
             fish.image +
             ' class="img-fluid" alt="responsive image"></td><td>' +
+            fish.rarity.toUpperCase() +
+            '</td><td>' +
             fish.price +
             '</td><td>' +
-            fish.location +
+            fish.location.toUpperCase() +
             '</td><td>' +
             fish.shadowsize +
             '</td></tr>';
