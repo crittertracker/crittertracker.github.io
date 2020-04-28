@@ -16,16 +16,12 @@
   <body>
     
     <!-- Jumbotron DIV - BEGIN-->
-    <div class="jumbotron bg-dark m-3 text-light">
+    <div class="container my-1">
       
-      <div class ="col">
-      <h1 class="display-4" align="center">
-        
-        <strong>New Horizons</strong> <br />Critter Tracker <hr class="my-3 bg-light" />
-        <img src="src/introicon.png" class="rounded-circle float-center" width="120" height="120" alt="bugicon">
-        <img src="src/mapicon.png" class="rounded-circle float-center" width="120" height="120" alt="bugicon"></h1>
-      </div>
       
+    <img src="src/logo.png" class="img-fluid" align=center alt="logoicon">
+     
+     
     </div>
 
     <!-- Jumbotron DIV - END -->
@@ -35,7 +31,7 @@
     
     <!-- NavBar BEGIN-->
     <div class="container my-2">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
         <a class="navbar-brand" href="index.html">Critters</a>
         <button
           class="navbar-toggler"
@@ -71,9 +67,31 @@
     
     
     
-      <div class="container my-2">
+<div class="container my-2">
                 
-          <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#list" aria-expanded="true" aria-controls="list">
+  <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#list1" aria-expanded="true" aria-controls="list">
+    Development Notes v1.3 (Update: 04/27/20) <svg class="bi bi-card-list" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 00-.5.5v9a.5.5 0 00.5.5h13a.5.5 0 00.5-.5v-9a.5.5 0 00-.5-.5zm-13-1A1.5 1.5 0 000 3.5v9A1.5 1.5 0 001.5 14h13a1.5 1.5 0 001.5-1.5v-9A1.5 1.5 0 0014.5 2h-13z" clip-rule="evenodd"/>
+      <path fill-rule="evenodd" d="M5 8a.5.5 0 01.5-.5h7a.5.5 0 010 1h-7A.5.5 0 015 8zm0-2.5a.5.5 0 01.5-.5h7a.5.5 0 010 1h-7a.5.5 0 01-.5-.5zm0 5a.5.5 0 01.5-.5h7a.5.5 0 010 1h-7a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+      <circle cx="3.5" cy="5.5" r=".5"/>
+      <circle cx="3.5" cy="8" r=".5"/>
+      <circle cx="3.5" cy="10.5" r=".5"/>
+    </svg>
+  </button>
+  
+  <ul id="list1" class="list-group list-group-flush collapse hide">
+    <li class="list-group-item">Repo migrated to new domain/username "crittertracker".</li>
+    <li class="list-group-item">New styling on all tables for better viewing.</li>
+    <li class="list-group-item">Rarity added to base tables.</li>
+    <li class="list-group-item">Complete Database including listed Month and Hour availability added.</li>
+    <li class="list-group-item">More data functionality coming soon.</li>
+
+  </ul>
+</div>      
+
+<div class="container my-2">
+                
+          <button class="btn btn-secondary btn-block" type="button" data-toggle="collapse" data-target="#list2" aria-expanded="true" aria-controls="list">
             Development Notes v1.2 (Update: 04/22/20) <svg class="bi bi-card-list" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 00-.5.5v9a.5.5 0 00.5.5h13a.5.5 0 00.5-.5v-9a.5.5 0 00-.5-.5zm-13-1A1.5 1.5 0 000 3.5v9A1.5 1.5 0 001.5 14h13a1.5 1.5 0 001.5-1.5v-9A1.5 1.5 0 0014.5 2h-13z" clip-rule="evenodd"/>
               <path fill-rule="evenodd" d="M5 8a.5.5 0 01.5-.5h7a.5.5 0 010 1h-7A.5.5 0 015 8zm0-2.5a.5.5 0 01.5-.5h7a.5.5 0 010 1h-7a.5.5 0 01-.5-.5zm0 5a.5.5 0 01.5-.5h7a.5.5 0 010 1h-7a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
@@ -83,7 +101,7 @@
             </svg>
           </button>
           
-          <ul id="list" class="list-group list-group-flush collapse hide">
+          <ul id="list2" class="list-group list-group-flush collapse hide">
             <li class="list-group-item">Ability to custom set month and clock added</li>
             <li class="list-group-item">Complete Bug/Fish Database added for both hemispheres</li>
             <li class="list-group-item">Ability to hide certain critters coming soon</li>
@@ -94,7 +112,7 @@
       <div class = "container my-2">
         
         <footer>
-          <p><strong>Developed and Maintained by Luis Penedo - 2020</strong></p>
+          <p align=right>Developed and Maintained by Luis Penedo - 2020</p>
         </footer>
        
       </div>
