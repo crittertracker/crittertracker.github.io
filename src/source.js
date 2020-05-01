@@ -95,12 +95,13 @@ $.ajax({
   type: 'get',
   cache: false,
   success: function (data) {
-    var fishCounter = 0;
+    var nhfishCounter = 0;
     $(data.fish).each(function (_index, fish) {
 
       if (fish.time.indexOf(h) > -1 && fish.month.indexOf(sMonth) > -1) {
         
-        fishCounter++;
+        nhfishCounter++;
+        $('#fishCounter').text(nhfishCounter);
         
        var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
 
@@ -121,7 +122,7 @@ $.ajax({
         $(tableRow).appendTo('#userdatafish_nh tbody');
 
       }
-      $('#fishCounter').text(fishCounter); 
+      
     });
   },
 });
@@ -142,12 +143,13 @@ $.ajax({
   type: 'get',
   cache: false,
   success: function (data) {
-    var fishCounter = 0;
+    var shfishCounter = 0;
     $(data.fish).each(function (_index, fish) {
 
       if (fish.time.indexOf(h) > -1 && fish.month.indexOf(sMonth) > -1) {
         
-        fishCounter++;
+        shfishCounter++;
+        $('#fishCounter').text(shfishCounter); 
         
        var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
 
@@ -168,7 +170,7 @@ $.ajax({
         $(tableRow).appendTo('#userdatafish_sh tbody');
 
       }
-      $('#fishCounter').text(fishCounter); 
+      
     });
   },
 });
@@ -183,12 +185,13 @@ $.ajax({
   type: 'get',
   cache: false,
   success: function (data) {
-    var bugCounter = 0;
+    var nhbugCounter = 0;
     $(data.bugs).each(function (_index, bug) {
 
       if (bug.time.indexOf(h) > -1 && bug.month.indexOf(sMonth) > -1) {
         
-        bugCounter++;
+        nhbugCounter++;
+        $('#bugCounter').text(nhbugCounter); 
         
        var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
 
@@ -207,7 +210,7 @@ $.ajax({
         $(tableRow).appendTo('#userdatabugs_nh tbody');
 
       }
-      $('#bugCounter').text(bugCounter); 
+      
     });
   },
 });
@@ -221,12 +224,15 @@ $.ajax({
   type: 'get',
   cache: false,
   success: function (data) {
-    var bugCounter = 0;
+
+    var shbugCounter = 0;
+
     $(data.bugs).each(function (_index, bug) {
 
       if (bug.time.indexOf(h) > -1 && bug.month.indexOf(sMonth) > -1) {
         
-        bugCounter++;
+        shbugCounter++;
+        $('#bugCounter').text(shbugCounter); 
         
        var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
 
@@ -245,7 +251,7 @@ $.ajax({
         $(tableRow).appendTo('#userdatabugs_sh tbody');
 
       }
-      $('#bugCounter').text(bugCounter); 
+      
     });
   },
 });
