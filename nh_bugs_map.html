@@ -12,34 +12,31 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="src/style.css" />
-    <link rel="icon" type="image/ico" href="src/bugicon.jpg" />
-    <title>Northern Fish Tracker -  Critter Tracker</title>
+    <title>Northern Bug Tracker -  Critter Tracker</title>
+    <link rel="icon" type="image/ico" href="src/fishicon.jpg" />
   </head>
 
   <body>
-
-
-     <!-- NavBar BEGIN-->
-    <div class="container my-2">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Critters</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <div class="dropdown-divider"></div>
-            <a class="nav-item nav-link" href="nh_fish_map.html">Northern Fish</a>
+        <!-- NavBar BEGIN-->
+        <div class="container my-2">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Critters</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <div class="dropdown-divider"></div>
+                <a class="nav-item nav-link" href="nh_fish_map.html">Northern Fish</a>
               <a class="nav-item nav-link" href="nh_bugs_map.html">Northern Bugs</a>
               <div class="dropdown-divider"></div>
               <a class="nav-item nav-link" href="sh_fish_map.html">Southern Fish</a>
@@ -49,81 +46,108 @@
               <a class="nav-item nav-link" href="timetravel.html">Time Travel</a>
               <div class="dropdown-divider"></div>
               <a class="nav-item nav-link" href="about.html">About</a>
-          </div>
+              </div>
+            </div>
+          </nav>
         </div>
-      </nav>
-    </div>
-<!-- NavBar - END -->
-    
-
-    <div class="container">
-      
-        <div class ="col-sm" align=center>
-        <h1 class="display-6"> Live Bug Tracker</h1> <img src="src/bugicon.jpg" class="rounded-circle" width="100" height="100" alt="bugicon">
-        </div>
-        <br />
-    </div>
-
-      
-      <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <h5 class="border-right border-bottom text-center">Northern Hemisphere</h5></h1>
-        </div>
-        <div class="col-sm">
-          <h5 class="border-right border-bottom text-center"><span id="currenttime"></span></h5>
-        </div>
-        <div class="col-sm">
-          <h5 class="border-right border-bottom text-center"><span id="currentdate"></span></h5>
-        </div>
-      </div>
+    <!-- NavBar - END -->
         
-      </div>
     
-     
-    
-    
-    
-    <div class="container">
-      <div class="row">
+        <div class="container">
           
-          <div class="col-sm my-2" align=right>
-            <a class="btn btn-info btn-block" href="nh_bugs_map.html" role="button"><svg class="bi bi-arrow-counterclockwise" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M12.83 6.706a5 5 0 00-7.103-3.16.5.5 0 11-.454-.892A6 6 0 112.545 5.5a.5.5 0 11.91.417 5 5 0 109.375.789z" clip-rule="evenodd"/>
-              <path fill-rule="evenodd" d="M7.854.146a.5.5 0 00-.708 0l-2.5 2.5a.5.5 0 000 .708l2.5 2.5a.5.5 0 10.708-.708L5.707 3 7.854.854a.5.5 0 000-.708z" clip-rule="evenodd"/>
-            </svg> Refresh Clock </a>
+            <div class ="col-sm" align=center>
+            <h1 class="display-6"> Live Bug Tracker</h1> <img src="src/bugicon.jpg" class="rounded-circle" width="100" height="100" alt="fishicon">
+            </div>
+            <br />
+        </div>
+    
+          
+          <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h5 class="border-right border-bottom text-center">Northern Hemisphere</h5></h1>
+            </div>
+            <div class="col-sm">
+              <h5 class="border-right border-bottom text-center"><span id="currenttime"></span></h5>
+            </div>
+            <div class="col-sm">
+              <h5 class="border-right border-bottom text-center"><span id="currentdate"></span></h5>
+            </div>
+            <div class="col-sm">
+              <h5 class="border-right border-bottom text-center"><strong><span id="bugCounter"></span></strong> Bugs Available</h5>
+            </div>
+            
           </div>
-      </div>
-      </div>
-      <div class="container">
-        <h5># Bugs Currently Available: <span class="alert-info" id="bugCounter"></span></h5>
-      
-      </div>
+            
+          </div>
+        
+         
+        
+        <div class="container">
+          <div class="row">
+              
+              <div class="col-sm-12 my-2">
+                <a class="btn btn-success btn-block btn-lg" href="nh_bugs_map.html" role="button"><svg class="bi bi-arrow-counterclockwise" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M12.83 6.706a5 5 0 00-7.103-3.16.5.5 0 11-.454-.892A6 6 0 112.545 5.5a.5.5 0 11.91.417 5 5 0 109.375.789z" clip-rule="evenodd"/>
+                  <path fill-rule="evenodd" d="M7.854.146a.5.5 0 00-.708 0l-2.5 2.5a.5.5 0 000 .708l2.5 2.5a.5.5 0 10.708-.708L5.707 3 7.854.854a.5.5 0 000-.708z" clip-rule="evenodd"/>
+                </svg> Refresh Clock </a>
+                <hr />
+              </div>
+          </div>
+          </div>
+          
+
+<div class = "container" align=center>
+
+  
+    <label for="showFly"><strong>Flying</strong></label>
+   <label class="switch">
+    <input id="showFly" type="checkbox" checked="checked">
+    <span class="slider round"></span>
+   </label>
+
+   <label for="showGround"><strong>Ground</strong></label>
+   <label class="switch">
+    <input id="showGround" type="checkbox" checked="checked">
+    <span class="slider round"></span>
+   </label>
+
+   <label for="showTree"><strong>Trees</strong></label>
+   <label class="switch">
+    <input id="showTree" type="checkbox" checked="checked">
+    <span class="slider round"></span>
+   </label>
+
+  
+
+
+   
+   
+  
+</div>
 
     
-    
     <div class="container">
+      <hr />
     <table class="table table-sm table-dark table-striped table-bordered table-hover" id="userdatabugs_nh">
       <thead class = "thead-dark">
         <tr>
-          <th id="nameN">Name<svg class="bi bi-chevron-expand" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <th>Name<svg class="bi bi-chevron-expand" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 01.708 0L8 12.793l3.646-3.647a.5.5 0 01.708.708l-4 4a.5.5 0 01-.708 0l-4-4a.5.5 0 010-.708zm0-2.292a.5.5 0 00.708 0L8 3.207l3.646 3.647a.5.5 0 00.708-.708l-4-4a.5.5 0 00-.708 0l-4 4a.5.5 0 000 .708z" clip-rule="evenodd"/>
           </svg></th>
           
           <th>Price<svg class="bi bi-chevron-expand" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 01.708 0L8 12.793l3.646-3.647a.5.5 0 01.708.708l-4 4a.5.5 0 01-.708 0l-4-4a.5.5 0 010-.708zm0-2.292a.5.5 0 00.708 0L8 3.207l3.646 3.647a.5.5 0 00.708-.708l-4-4a.5.5 0 00-.708 0l-4 4a.5.5 0 000 .708z" clip-rule="evenodd"/>
           </svg></th>
-          
           <th>Location<svg class="bi bi-chevron-expand" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 01.708 0L8 12.793l3.646-3.647a.5.5 0 01.708.708l-4 4a.5.5 0 01-.708 0l-4-4a.5.5 0 010-.708zm0-2.292a.5.5 0 00.708 0L8 3.207l3.646 3.647a.5.5 0 00.708-.708l-4-4a.5.5 0 00-.708 0l-4 4a.5.5 0 000 .708z" clip-rule="evenodd"/>
           </svg></th>
+          
         </tr>
       </thead>
       <tbody></tbody>
     </table>
   </div>
-
-  
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -143,8 +167,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.js"></script>
     <script src="src/source.js"></script>
-    
-    
-    
+   
+   
+
   </body>
 </html>

@@ -18,25 +18,25 @@
   </head>
 
   <body>
-     <!-- NavBar BEGIN-->
-     <div class="container my-2">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Critters</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <div class="dropdown-divider"></div>
-            <a class="nav-item nav-link" href="nh_fish_map.html">Northern Fish</a>
+        <!-- NavBar BEGIN-->
+        <div class="container my-2">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Critters</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <div class="dropdown-divider"></div>
+                <a class="nav-item nav-link" href="nh_fish_map.html">Northern Fish</a>
               <a class="nav-item nav-link" href="nh_bugs_map.html">Northern Bugs</a>
               <div class="dropdown-divider"></div>
               <a class="nav-item nav-link" href="sh_fish_map.html">Southern Fish</a>
@@ -46,59 +46,89 @@
               <a class="nav-item nav-link" href="timetravel.html">Time Travel</a>
               <div class="dropdown-divider"></div>
               <a class="nav-item nav-link" href="about.html">About</a>
-          </div>
+              </div>
+            </div>
+          </nav>
         </div>
-      </nav>
-    </div>
-<!-- NavBar - END -->
-    
-
-    <div class="container">
-      
-        <div class ="col-sm" align=center>
-        <h1 class="display-6"> Live Fish Tracker</h1> <img src="src/fishicon.jpg" class="rounded-circle" width="100" height="100" alt="fishicon">
-        </div>
-        <br />
-    </div>
-
-      
-      <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <h5 class="border-right border-bottom text-center">Southern Hemisphere</h5></h1>
-        </div>
-        <div class="col-sm">
-          <h5 class="border-right border-bottom text-center"><span id="currenttime"></span></h5>
-        </div>
-        <div class="col-sm">
-          <h5 class="border-right border-bottom text-center"><span id="currentdate"></span></h5>
-        </div>
-      </div>
+    <!-- NavBar - END -->
         
-      </div>
     
-     
-    
-    
-    
-    <div class="container">
-      <div class="row">
+        <div class="container">
           
-          <div class="col-sm my-2" align=right>
-            <a class="btn btn-info btn-block" href="sh_fish_map.html" role="button"><svg class="bi bi-arrow-counterclockwise" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M12.83 6.706a5 5 0 00-7.103-3.16.5.5 0 11-.454-.892A6 6 0 112.545 5.5a.5.5 0 11.91.417 5 5 0 109.375.789z" clip-rule="evenodd"/>
-              <path fill-rule="evenodd" d="M7.854.146a.5.5 0 00-.708 0l-2.5 2.5a.5.5 0 000 .708l2.5 2.5a.5.5 0 10.708-.708L5.707 3 7.854.854a.5.5 0 000-.708z" clip-rule="evenodd"/>
-            </svg> Refresh Clock </a>
+            <div class ="col-sm" align=center>
+            <h1 class="display-6"> Live Fish Tracker</h1> <img src="src/fishicon.jpg" class="rounded-circle" width="100" height="100" alt="fishicon">
+            </div>
+            <br />
+        </div>
+    
+          
+          <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h5 class="border-right border-bottom text-center">Southern Hemisphere</h5></h1>
+            </div>
+            <div class="col-sm">
+              <h5 class="border-right border-bottom text-center"><span id="currenttime"></span></h5>
+            </div>
+            <div class="col-sm">
+              <h5 class="border-right border-bottom text-center"><span id="currentdate"></span></h5>
+            </div>
+            <div class="col-sm">
+              <h5 class="border-right border-bottom text-center"><strong><span id="fishCounter"></span></strong> Fish Available</h5>
+            </div>
+            
           </div>
-      </div>
-      </div>
+            
+          </div>
+        
+         
+        
+        <div class="container">
+          <div class="row">
+              
+              <div class="col-sm-12 my-2">
+                <a class="btn btn-primary btn-block btn-lg" href="sh_fish_map.html" role="button"><svg class="bi bi-arrow-counterclockwise" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M12.83 6.706a5 5 0 00-7.103-3.16.5.5 0 11-.454-.892A6 6 0 112.545 5.5a.5.5 0 11.91.417 5 5 0 109.375.789z" clip-rule="evenodd"/>
+                  <path fill-rule="evenodd" d="M7.854.146a.5.5 0 00-.708 0l-2.5 2.5a.5.5 0 000 .708l2.5 2.5a.5.5 0 10.708-.708L5.707 3 7.854.854a.5.5 0 000-.708z" clip-rule="evenodd"/>
+                </svg> Refresh Clock </a>
+                <hr />
+              </div>
+          </div>
+          </div>
+          
 
-      <div class="container">
-        <h5># Fish Currently Available: <span class="alert-info" id="fishCounter"></span></h5>
-      
-      </div>
+<div class = "container" align=center>
+
+  
+    <label for="showPier"><strong>Pier</strong></label>
+   <label class="switch">
+    <input id="showPier" type="checkbox" checked="checked">
+    <span class="slider round"></span>
+   </label>
+
+   <label for="showPond"><strong>Pond</strong></label>
+   <label class="switch">
+    <input id="showPond" type="checkbox" checked="checked">
+    <span class="slider round"></span>
+   </label>
+
+   <label for="showRiver"><strong>River</strong></label>
+   <label class="switch">
+    <input id="showRiver" type="checkbox" checked="checked">
+    <span class="slider round"></span>
+   </label>
+
+   <label for="showSea"><strong>Sea</strong></label>
+  <label class="switch">
+    <input id="showSea" type="checkbox" checked="checked">
+    <span class="slider round"></span>
+   </label>
+  
+</div>
+
     
     <div class="container">
+      <hr />
     <table class="table table-sm table-dark table-striped table-bordered table-hover" id="userdatafish_sh">
       <thead class = "thead-dark">
         <tr>
@@ -139,6 +169,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.js"></script>
     <script src="src/source.js"></script>
-    
+   
+   
+
   </body>
 </html>
