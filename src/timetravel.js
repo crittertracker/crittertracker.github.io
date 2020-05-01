@@ -52,7 +52,7 @@ $.ajax({
             bug.name.toUpperCase() +
             '</b><br /><img src=' +
             bug.image +
-            ' class="img-fluid" alt="responsive image"><br /><a href="https://animalcrossing.fandom.com/wiki/' + (bug.name.toLowerCase()) +'" target="_blank" class="btn btn-info my-1" role="button">'+infoIcon+'</a><hr />' +
+            ' class="img-fluid" alt="responsive image"><br /><a href="https://animalcrossing.fandom.com/wiki/' + (bug.name.toLowerCase()) +'" target="_blank" class="btn btn-info my-1" role="button"> Wiki '+infoIcon+'</a><hr />' +
             bug.rarity.toLowerCase() +
             '</td><td>' +
             bug.price +
@@ -86,7 +86,7 @@ $.ajax({
             fish.name.toUpperCase() +
             '</b><br /><img src=' +
             fish.image +
-            ' class="img-fluid" alt="responsive image"><br /><a href="https://animalcrossing.fandom.com/wiki/' + (fish.name.toLowerCase()) +'" target="_blank" class="btn btn-info my-1" role="button">'+infoIcon+'</a><hr />' +
+            ' class="img-fluid" alt="responsive image"><br /><a href="https://animalcrossing.fandom.com/wiki/' + (fish.name.toLowerCase()) +'" target="_blank" class="btn btn-info my-1" role="button"> Wiki '+infoIcon+'</a><hr />' +
             fish.rarity.toLowerCase() +
             '</td><td>' +
             fish.price +

@@ -86,7 +86,8 @@ $.ajax({
 
 
 
-     
+        var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
+
         
         
           var tableRow =
@@ -94,7 +95,7 @@ $.ajax({
             bug.name.toUpperCase() +
             '<br /><img src=' +
             bug.image +
-            ' class="img-fluid" alt="responsive image"></td><td>' +
+            ' class="img-fluid" alt="responsive image"><hr /><a href="https://animalcrossing.fandom.com/wiki/' + (bug.name.toLowerCase()) +'" target="_blank" class="btn btn-info my-1" role="button"> Wiki '+infoIcon+'</a><hr /></td><td>' +
             bug.price +
             '</td><td>' +
             bug.location.toUpperCase() +
@@ -152,6 +153,7 @@ $.ajax({
         if((fish.time).length==16 && fish.time[0]==21){
           fish.time="9PM-4PM"
         }
+        var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
 
        
           var tableRow =
@@ -159,7 +161,7 @@ $.ajax({
             fish.name.toUpperCase() +
             '<br /><img src=' +
             fish.image +
-            ' class="img-fluid" alt="responsive image"></td><td>' +
+            ' class="img-fluid" alt="responsive image"><br /><a href="https://animalcrossing.fandom.com/wiki/' + (fish.name.toLowerCase()) +'" target="_blank" class="btn btn-info my-1" role="button"> Wiki '+infoIcon+'</a><hr /></td><td>' +
             fish.price +
             '</td><td>' +
             fish.location.toUpperCase() +
@@ -263,14 +265,15 @@ $.ajax({
           bug.time="4AM-8AM / 5PM-7PM"
         }
         
-        
+        var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
+
   
           var tableRow =
             '<tr><td id="bName">' +
             bug.name.toUpperCase() +
             '<br /><img src=' +
             bug.image +
-            ' class="img-fluid" alt="responsive image"></td><td>' +
+            ' class="img-fluid" alt="responsive image"><hr /><a href="https://animalcrossing.fandom.com/wiki/' + (bug.name.toLowerCase()) +'" target="_blank" class="btn btn-info my-1" role="button"> Wiki '+infoIcon+'</a><hr /></td><td>' +
             bug.price +
             '</td><td>' +
             bug.location.toUpperCase() +
@@ -330,6 +333,7 @@ $.ajax({
           fish.time="9PM-4PM"
         }
 
+        var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
 
         
         
@@ -338,7 +342,7 @@ $.ajax({
             fish.name +
             '<br /><img src=' +
             fish.image +
-            ' class="img-fluid" alt="responsive image"></td><td>' +
+            ' class="img-fluid" alt="responsive image"><br /><a href="https://animalcrossing.fandom.com/wiki/' + (fish.name.toLowerCase()) +'" target="_blank" class="btn btn-info my-1" role="button"> Wiki '+infoIcon+'</a><hr /></td><td>' +
             fish.price +
             '</td><td>' +
             fish.location +

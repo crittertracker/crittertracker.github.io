@@ -108,7 +108,7 @@ $.ajax({
           '<tr><td id="fName"><b>' +
           (fish.name).toUpperCase() + '</b><br /><img src=' +
           fish.image +
-          ' class="img-fluid" alt="Responsive image"><br /><a href="https://animalcrossing.fandom.com/wiki/' + (fish.name) +'" target="_blank" class="btn btn-info my-1" role="button">'+infoIcon+'</a><hr />' +
+          ' class="img-fluid" alt="Responsive image"><br /><a href="https://animalcrossing.fandom.com/wiki/' + (fish.name) +'" target="_blank" class="btn btn-info my-1" role="button"> Wiki '+infoIcon+'</a><hr />' +
           (fish.rarity).toUpperCase() +
           '</td><td>' +
           fish.price +
@@ -155,7 +155,7 @@ $.ajax({
           '<tr><td id="fName"><b>' +
           (fish.name).toUpperCase() + '</b><br /><img src=' +
           fish.image +
-          ' class="img-fluid" alt="Responsive image"><br /><a href="https://animalcrossing.fandom.com/wiki/' + (fish.name.toLowerCase()) +'" target="_blank" class="btn btn-info my-1" role="button">'+infoIcon+'</a><hr />' +
+          ' class="img-fluid" alt="Responsive image"><br /><a href="https://animalcrossing.fandom.com/wiki/' + (fish.name.toLowerCase()) +'" target="_blank" class="btn btn-info my-1" role="button"> Wiki '+infoIcon+'</a><hr />' +
           (fish.rarity).toUpperCase() +
           '</td><td>' +
           fish.price +
@@ -196,7 +196,7 @@ $.ajax({
           '<tr><td id="bName"><b>' +
           (bug.name).toUpperCase() + '</b><br /><img src=' +
           bug.image +
-          ' class="img-fluid" alt="Responsive image"><br /><a href="https://animalcrossing.fandom.com/wiki/' + (bug.name.toLowerCase()) +'" target="_blank" class="btn btn-info my-1" role="button">'+infoIcon+'</a><hr />' +
+          ' class="img-fluid" alt="Responsive image"><br /><a href="https://animalcrossing.fandom.com/wiki/' + (bug.name.toLowerCase()) +'" target="_blank" class="btn btn-info my-1" role="button"> Wiki'+infoIcon+'</a><hr />' +
           (bug.rarity).toUpperCase() +
           '</td><td>' +
           bug.price +
