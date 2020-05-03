@@ -18,6 +18,10 @@ td {
   
 }
 
+.caught {
+  background-color: rebeccapurple;
+}
+
 
 /* The switch - the box around the slider */
 .switch {

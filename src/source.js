@@ -258,6 +258,10 @@ $.ajax({
         
         var rowCountSB = $("#userdatabugs_sh td").closest("tr").length; //counts number of rows of southern bugs table
         $('#bugCounterSB').text(rowCountSB); //sends number of rows to display as number of fish available
+        
+        
+       
+     
 
       }
       
@@ -269,7 +273,8 @@ $.ajax({
 
 //Filter Functions Fish
 $('#showPier').click(function(){
-  $('td:contains("PIER")').parent().toggle("slow");
+$('td:contains("PIER")').parent().toggle("slow");
+ 
 }); 
 
 $('#showPond').click(function(){
@@ -298,7 +303,7 @@ $('#showTree').click(function(){
   $('td:contains("TREE")').parent().toggle("slow");
 }); 
 
-
+//
 
 
 
