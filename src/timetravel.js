@@ -146,20 +146,6 @@ function getCellValue(row, index) {
 
 
 
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-
 }); //document ready end tag
 
 
