@@ -1,6 +1,11 @@
 $( document ).ready(function() {
   console.log( "ready!" );
 
+
+  //global icons
+
+  var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
+
   //northern bugs
 
 $.ajax({
@@ -9,7 +14,7 @@ $.ajax({
     type: 'get',
     cache: false,
     success: function (data) {
-      $(data.bugs).each(function (index, bug) {
+      $(data.bugs).each(function (_index, bug) {
         
         
        //bug month display conversions
@@ -84,10 +89,7 @@ $.ajax({
         }
         
 
-
-
-        var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
-
+        
         
         
           var tableRow =
@@ -122,7 +124,7 @@ $.ajax({
     type: 'get',
     cache: false,
     success: function (data) {
-      $(data.fish).each(function (index, fish) {
+      $(data.fish).each(function (_index, fish) {
         if ((fish.month).length==12){
           fish.month="All Year"
         }
@@ -153,8 +155,7 @@ $.ajax({
         if((fish.time).length==16 && fish.time[0]==21){
           fish.time="9PM-4PM"
         }
-        var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
-
+        
        
           var tableRow =
             '<tr><td id="fName">' +
@@ -192,7 +193,7 @@ $.ajax({
     type: 'get',
     cache: false,
     success: function (data) {
-      $(data.bugs).each(function (index, bug) {
+      $(data.bugs).each(function (_index, bug) {
 
         //bug month display conversions
   
@@ -265,8 +266,7 @@ $.ajax({
           bug.time="4AM-8AM / 5PM-7PM"
         }
         
-        var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
-
+        
   
           var tableRow =
             '<tr><td id="bName">' +
@@ -300,7 +300,7 @@ $.ajax({
     type: 'get',
     cache: false,
     success: function (data) {
-      $(data.fish).each(function (index, fish) {
+      $(data.fish).each(function (_index, fish) {
         
         if ((fish.month).length==12){
           fish.month="All Year"
@@ -333,8 +333,7 @@ $.ajax({
           fish.time="9PM-4PM"
         }
 
-        var infoIcon = '<svg class="bi bi-info-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/></svg>'
-
+       
         
         
           var tableRow =
@@ -393,8 +392,6 @@ $('th').click(function () {
     return $(row).children('td').eq(index).text();
   }
 
-
-  //---
 
 
   
