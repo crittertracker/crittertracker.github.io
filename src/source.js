@@ -70,9 +70,11 @@ $.ajax({
   cache: false,
   success: function (data) {
       $(data.fish).each(function (_index, fish) {
+       
 
         if (fish.time.indexOf(hour) > -1 && fish.month.indexOf(month) > -1){
            
+          //console.log(`Fish name: ${fish.name} | Fish time: ${fish.time} | Fish months: ${fish.month}`); debug
           var tableRow = '<tr><td id="fName"><b>' +
           (fish.name).toUpperCase() + '</b><br /><img src=' +
           fish.image +
