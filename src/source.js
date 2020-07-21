@@ -11,8 +11,8 @@ var d = new Date();
 console.log("Date/Time: " + d + " | type: " + typeof(d)); //debugging Date
 
 var hour = String(d.getHours()); // hour num to string
-if (hour = '0'){
-  hour = '24';
+if (hour == '00'){
+  hour =='24';
 }
 console.log("Hour: " + hour + " | type: " + typeof(hour)); //debugging Hour
 ///
@@ -196,6 +196,7 @@ $.ajax({
     $(data.bugs).each(function (_index, bug) {
 
       if (bug.time.indexOf(hour) > -1 && bug.month.indexOf(month) > -1) {
+       
         
         var tableRow =
           '<tr><td id="bName"><b>' +
