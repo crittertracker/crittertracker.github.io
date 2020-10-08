@@ -9,8 +9,6 @@ thead{
     }
 
 
-
-
 td { 
   overflow: hidden; 
   text-overflow: ellipsis; 
@@ -85,9 +83,6 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
-
-
 
 
 @media only screen and (max-width: 480px) {
