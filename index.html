@@ -42,7 +42,7 @@
                 <div class = "col-4">
                     <label for="month"><b>Month</b></label>
                     <select class="custom-select" id="month">
-                    <option selected value="Current">Current</option>
+                    <option id="currentMonthChoice" selected value="Current">Current</option>
                     <option value="Jan">January</option>
                     <option value="Feb">February</option>
                     <option value="Mar">March</option>
@@ -61,7 +61,7 @@
                 <div class = "col-4">
                     <label for="hour"><b>Hour</b></label>
                     <select class="custom-select" id="hour">
-                    <option selected value="Current">Current</option>
+                    <option id="currentTimeChoice" selected value="Current"></option>
                     <option value="1">1:00 AM</option>
                     <option value="2">2:00 AM</option>
                     <option value="3">3:00 AM</option>
@@ -132,6 +132,8 @@
 
 
         <diu class="container">
+
+          <div class = "row"><div class="col-6"><span id="currentHemisphereChoice"></span></div><div class="col-6"></div></div>
             
             <div class = "row">
 

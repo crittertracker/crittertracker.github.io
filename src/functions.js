@@ -1,8 +1,7 @@
 
-function getHour(){
+function getCurrentHour(){
 
     let hour = String(new Date().getHours());
-    console.log(hour);
     if (hour === '0') hour === '24'; 
     return hour;
 
@@ -10,11 +9,11 @@ function getHour(){
 
 function getHourSelection(){
     let hour = document.getElementById('hour').value;
-    if(hour==='Current') return getHour();
+    if(hour==='Current') return getCurrentHour();
     else return hour;
 }
 
-function getMonth(){ 
+function getCurrentMonth(){ 
 
     let month = new Date().getMonth() + 1; 
     switch (month) {
@@ -61,7 +60,7 @@ function getMonth(){
 
 function getMonthSelection(){
     let month = document.getElementById('month').value;
-    if(month==='Current') return getMonth();
+    if(month==='Current') return getCurrentMonth();
     else return month;
 }
 
@@ -269,6 +268,8 @@ function templateGenerator(critter,name,image,link,rarity,price,location,shadow)
 function fullRender(){
         
     buildTables(generateAvailableCritterList(getHemisphereSelection(), getHourSelection(), getMonthSelection()));
+    time();
+ 
 
 }
 
@@ -279,10 +280,24 @@ function resetPage(){
 
 
 
+function time() {
 
+    let tOptions = {
+        hour: 'numeric',
+        minute: 'numeric',
+        hour12: true
+      };
 
+    let mOptions = {
+        month: 'long',
+        
+      };
 
-
+  let clock = new Date();
+  timeChoice.textContent = `Current Time: ${clock.toLocaleString('en-US',tOptions)}`;
+  monthChoice.textContent =  `Current Month: ${clock.toLocaleString('en-US',mOptions)}`;
+  setInterval(time,1000);
+}
 
 
 

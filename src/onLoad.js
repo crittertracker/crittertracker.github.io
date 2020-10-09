@@ -7,6 +7,9 @@ let bugToggle = document.getElementById('showBugs');
 let fishToggle = document.getElementById('showFish');
 //let seaCreatureToggle = document.getElementById('showSeaCreatures');
 
+let timeChoice = document.getElementById('currentTimeChoice');
+let monthChoice = document.getElementById('currentMonthChoice');
+
 
 window.addEventListener('load', () => {
 
@@ -22,7 +25,7 @@ window.addEventListener('load', () => {
   loadPromise.then((successMessage) => {
   
     fullRender();
-
+    
     console.log(successMessage);
 
   });
@@ -52,6 +55,9 @@ bugToggle.addEventListener('click', ()=>{
   if(bugToggle.checked) show('bugTableArea');
   else hide('bugTableArea');
 });
+
+
+
 
 
 
