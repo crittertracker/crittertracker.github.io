@@ -169,7 +169,7 @@ function clearTable(tableName){
 
 function resetHeaders(tableName, table){
 
-    let svgHTML = ``; //insert icon here later to indicate sortability
+    let svgHTML = '<img src="src/pics/sort.png" />' //insert icon here later to indicate sortability
 
     switch(tableName){
         

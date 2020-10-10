@@ -11,10 +11,15 @@ let timeChoice = document.getElementById('currentTimeChoice');
 let monthChoice = document.getElementById('currentMonthChoice');
 
 
+
+
+
 window.addEventListener('load', () => {
 
-  let loadPromise = new Promise((resolve) => {
+  
 
+  let loadPromise = new Promise((resolve) => {
+    
     storeAllCritterData();
 
     setTimeout( function() {
@@ -25,7 +30,6 @@ window.addEventListener('load', () => {
   loadPromise.then((successMessage) => {
   
     fullRender();
-    
     console.log(successMessage);
 
   });
