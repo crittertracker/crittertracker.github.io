@@ -16,7 +16,7 @@
          "price": "80",
          "location": "Rotten Food",
          "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"common"
 
       },
@@ -35,7 +35,7 @@
          "price": "600",
          "location": "Shaking Trees",
          "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"uncommon"
       },
       {
@@ -80,7 +80,7 @@
          "price": "300",
          "location": "Hitting Rocks",
          "time": ["16","17","18","19","20","21","22","23"],
-         "month": ["Mar","Apr","May","Jun","Sept","Oct","Nov","Dec"],
+         "month": ["Mar","Apr","May","Jun","Sep","Oct","Nov","Dec"],
          "rarity":"scarce"
       },
       {
@@ -98,7 +98,7 @@
          "price": "350",
          "location": "On Tree Stumps",
          "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"unknown"
       },
       {
@@ -116,7 +116,7 @@
          "price": "160",
          "location": "Flying",
          "time": ["4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"],
-         "month": ["Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"common"
       },
       {
@@ -197,7 +197,7 @@
          "price": "4000",
          "location": "Flying",
          "time": ["17","18","19","20","21","22","23","24","1","2","3","4","5","6","7","8"],
-         "month": ["Jan","Feb","Mar","Jun","Jul","Aug","Sept","Dec"],
+         "month": ["Jan","Feb","Mar","Jun","Jul","Aug","Sep","Dec"],
          "rarity":"scarce"
       },
       {
@@ -233,7 +233,7 @@
          "price": "60",
          "location": "On Trash Items",
          "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"common"
       },
       {
@@ -314,7 +314,7 @@
          "price": "1000",
          "location": "Beach Disguised as Shells",
          "time": ["19","20","21","22","23","24","1","2","3","4","5","6","7","8"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"scarce"
       },
       {
@@ -323,7 +323,7 @@
          "price": "200",
          "location": "Flying",
          "time": ["8","9","10","11","12","13","14","15","16","17"],
-         "month": ["Jan","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Sep","Oct","Nov","Dec"],
          "rarity":"common"
       },
       {
@@ -377,7 +377,7 @@
          "price": "200",
          "location": "On Flowers",
          "time": ["8","9","10","11","12","13","14","15","16","17"],
-         "month": ["Apr","Sept","Oct","Nov","Dec"],
+         "month": ["Apr","Sep","Oct","Nov","Dec"],
          "rarity":"common"
       },
       {
@@ -404,7 +404,7 @@
          "price": "1000",
          "location": "On Flowers",
          "time": ["19","20","21","22","23","24","1","2","3","4","5","6","7","8"],
-         "month": ["Jan","Feb","Mar","Apr","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","Sep","Oct","Nov","Dec"],
          "rarity":"fairly common"
       },
       {
@@ -413,7 +413,7 @@
          "price": "430",
          "location": "On Flowers",
          "time": ["8","9","10","11","12","13","14","15","16","17"],
-         "month": ["Jan","Feb","Mar","Apr","May","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Sep","Oct","Nov","Dec"],
          "rarity":"uncommon"
       },
       {
@@ -440,7 +440,7 @@
          "price": "500",
          "location": "Underground",
          "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-         "month": ["May","Jun","Jul","Aug","Sept","Oct","Nov"],
+         "month": ["May","Jun","Jul","Aug","Sep","Oct","Nov"],
          "rarity":"unknown"
       },
       {
@@ -467,7 +467,7 @@
          "price": "130",
          "location": "Flying by Light",
          "time": ["19","20","21","22","23","24","1","2","3","4"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"common"
       },
       {
@@ -476,7 +476,7 @@
          "price": "2400",
          "location": "On Flowers (White)",
          "time": ["8","9","10","11","12","13","14","15","16","17"],
-         "month": ["Jan","Feb","Mar","Apr","May","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Sep","Oct","Nov","Dec"],
          "rarity":"scarce"
       },
       {
@@ -485,7 +485,7 @@
          "price": "1000",
          "location": "Flying",
          "time": ["8","9","10","11","12","13","14","15","16","17","18","19"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"fairly common"
       },
       {
@@ -494,7 +494,7 @@
          "price": "2500",
          "location": "Flying by Hybrid Flowers",
          "time": ["4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"],
-         "month": ["Sept","Oct","Nov","Dec"],
+         "month": ["Sep","Oct","Nov","Dec"],
          "rarity":"uncommon"
       },
       {
@@ -503,7 +503,7 @@
          "price": "250",
          "location": "Hitting Rocks",
          "time": ["23","24","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"],
-         "month": ["Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"uncommon"
       },
       {
@@ -612,7 +612,7 @@
          "price": "250",
          "location": "On Rocks (Rain)",
          "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"scarce"
       },
       {
@@ -621,7 +621,7 @@
          "price": "600",
          "location": "Shaking Trees",
          "time": ["19","20","21","22","23","24","1","2","3","4","5","6","7","8"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"uncommon"
       },
       {
@@ -630,7 +630,7 @@
          "price": "120",
          "location": "On Flowers",
          "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-         "month": ["Jan","Feb","Mar","Apr","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","Sep","Oct","Nov","Dec"],
          "rarity":"uncommon"
       },
       {
@@ -639,7 +639,7 @@
          "price": "8000",
          "location": "On the Ground",
          "time": ["19","20","21","22","23","24","1","2","3","4"],
-         "month": ["May","Jun","Jul","Aug","Sept","Oct"],
+         "month": ["May","Jun","Jul","Aug","Sep","Oct"],
          "rarity":"rare"
       },
       {
@@ -648,7 +648,7 @@
          "price": "1500",
          "location": "On the Ground",
          "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-         "month": ["Jan","Feb","Mar","Apr","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"uncommon"
       },
       {
@@ -657,7 +657,7 @@
          "price": "240",
          "location": "Flying",
          "time": ["4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"],
-         "month": ["Jan","Feb","Mar","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Sep","Oct","Nov","Dec"],
          "rarity":"uncommon"
       },
       {
@@ -702,7 +702,7 @@
          "price": "2500",
          "location": "Shaking Trees",
          "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"unknown"
       },
       {
@@ -711,7 +711,7 @@
          "price": "200",
          "location": "On Beach Rocks",
          "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+         "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
          "rarity":"uncommon"
       },
       {
@@ -720,7 +720,7 @@
          "price": "160",
          "location": "Flying",
          "time": ["4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"],
-         "month": ["Mar","Apr","Sept","Oct","Nov","Dec"],
+         "month": ["Mar","Apr","Sep","Oct","Nov","Dec"],
          "rarity":"common"
       }
 
@@ -736,7 +736,7 @@
           "location": "Sea",
           "shadowsize": "2",
           "time": ["4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21"],
-          "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+          "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
           "rarity": "fairly uncommon"
 
        },
@@ -781,7 +781,7 @@
         "location": "Sea",
         "shadowsize": "3",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Feb","Mar","Apr","May","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Sep","Oct","Nov","Dec"],
         "rarity": "rare" 
 
        },
@@ -792,7 +792,7 @@
         "location": "Sea",
         "shadowsize": "2",
         "time": ["21","22","23","24","1","2","3","4"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "scarce" 
        },
 
@@ -814,7 +814,7 @@
         "location": "River",
         "shadowsize": "1",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["May","Jun","Jul","Aug","Sept"],
+        "month": ["May","Jun","Jul","Aug","Sep"],
         "rarity": "common" 
        },
 
@@ -825,7 +825,7 @@
         "location": "River",
         "shadowsize": "4",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "common"
        },
 
@@ -847,7 +847,7 @@
         "location": "Pier",
         "shadowsize": "6",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Feb","Mar","May","Jun","Jul","Aug","Sept","Oct"],
+        "month": ["Jan","Feb","Mar","May","Jun","Jul","Aug","Sep","Oct"],
         "rarity": "scarce" 
        },
 
@@ -858,7 +858,7 @@
         "location": "River",
         "shadowsize": "2",
         "time": ["9","10","11","12","13","14","15","16"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "uncommon" 
        },
 
@@ -880,7 +880,7 @@
         "location": "Pond",
         "shadowsize": "4",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "fairly common"
        },
        
@@ -902,7 +902,7 @@
         "location": "Pond (Clifftop)",
         "shadowsize": "3",
         "time": ["16","17","18","19","20","21","22","23","24","1","2","3","4","5","6","7","8","9"],
-        "month": ["Mar","Apr","May","Sept","Oct","Nov","Dec"],
+        "month": ["Mar","Apr","May","Sep","Oct","Nov","Dec"],
         "rarity": "uncommon"
        },
 
@@ -913,7 +913,7 @@
         "location": "River (Clifftop)",
         "shadowsize": "3",
         "time": ["16","17","18","19","20","21","22","23","24","1","2","3","4","5","6","7","8","9"],
-        "month": ["Mar","Apr","May","Sept","Oct","Nov","Dec"],
+        "month": ["Mar","Apr","May","Sep","Oct","Nov","Dec"],
         "rarity": "uncommon"
        },
 
@@ -935,7 +935,7 @@
         "location": "Sea (Raining)",
         "shadowsize": "6",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "very rare"
        },
 
@@ -957,7 +957,7 @@
         "location": "River",
         "shadowsize": "2",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "fairly common"
        },
 
@@ -968,7 +968,7 @@
         "location": "Sea",
         "shadowsize": "3",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Apr","May","Jun","Jul","Aug","Sept","Oct"],
+        "month": ["Apr","May","Jun","Jul","Aug","Sep","Oct"],
         "rarity": "fairly common" 
        },
 
@@ -979,7 +979,7 @@
         "location": "River",
         "shadowsize": "3",
         "time": ["16","17","18","19","20","21","22","23","24","1","2","3","4","5","6","7","8","9"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "fairly common" 
        },
 
@@ -1001,7 +1001,7 @@
         "location": "Sea",
         "shadowsize": "4",
         "time": ["16","17","18","19","20","21","22","23","24","1","2","3","4","5","6","7","8","9"],
-        "month": ["May","Jun","Jul","Aug","Sept"],
+        "month": ["May","Jun","Jul","Aug","Sep"],
         "rarity": "uncommon" 
        },
        {
@@ -1011,7 +1011,7 @@
         "location": "River",
         "shadowsize": "2",
         "time": ["16","17","18","19","20","21","22","23","24","1","2","3","4","5","6","7","8","9"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "scarce" 
        },
        {
@@ -1061,7 +1061,7 @@
         "location": "River (Clifftop)",
         "shadowsize": "3",
         "time": ["16","17","18","19","20","21","22","23","24","1","2","3","4","5","6","7","8","9"],
-        "month": ["Mar","Apr","May","Sept","Oct","Nov"],
+        "month": ["Mar","Apr","May","Sep","Oct","Nov"],
         "rarity": "unknown"  
        },
        {
@@ -1071,7 +1071,7 @@
         "location": "Pond",
         "shadowsize": "1",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "scarce"  
        },
        {
@@ -1111,7 +1111,7 @@
         "location": "Sea",
         "shadowsize": "2",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "common" 
        },
        {
@@ -1141,7 +1141,7 @@
         "location": "Pond",
         "shadowsize": "4",
         "time": ["16","17","18","19","20","21","22","23","24","1","2","3","4","5","6","7","8","9"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "scarce" 
        },
        {
@@ -1151,7 +1151,7 @@
         "location": "River",
         "shadowsize": "2",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Sept","Oct","Nov"],
+        "month": ["Sep","Oct","Nov"],
         "rarity": "common" 
        },
        {
@@ -1222,7 +1222,7 @@
         "location": "Sea",
         "shadowsize": "6",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jun","Jul","Aug","Sept","Oct","Nov"],
+        "month": ["Jun","Jul","Aug","Sep","Oct","Nov"],
         "rarity": "scarce" 
        },
        {
@@ -1242,7 +1242,7 @@
         "location": "Sea",
         "shadowsize": "5",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "uncommon" 
        },
        {
@@ -1252,7 +1252,7 @@
         "location": "River",
         "shadowsize": "1",
         "time": ["9","10","11","12","13","14","15","16"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "uncommon" 
        },
        {
@@ -1292,7 +1292,7 @@
         "location": "Pond",
         "shadowsize": "1",
         "time": ["9","10","11","12","13","14","15","16"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "scarce"
        },
        {
@@ -1322,7 +1322,7 @@
         "location": "Pond",
         "shadowsize": "2",
         "time": ["9","10","11","12","13","14","15","16"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "rare"
        },
        {
@@ -1342,7 +1342,7 @@
         "location": "Sea",
         "shadowsize": "4",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "uncommon" 
        },
        {
@@ -1392,7 +1392,7 @@
         "location": "Sea",
         "shadowsize": "5",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "common"  
        },
        {
@@ -1402,7 +1402,7 @@
         "location": "Sea",
         "shadowsize": "1",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jun","Jul","Aug","Sept"],
+        "month": ["Jun","Jul","Aug","Sep"],
         "rarity": "uncommon" 
        },
        {
@@ -1442,7 +1442,7 @@
         "location": "Sea",
         "shadowsize": "3",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Feb","Jun","Jul","Aug","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Feb","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
         "rarity": "uncommon"   
        },
        {
@@ -1452,7 +1452,7 @@
         "location": "River (Clifftop)",
         "shadowsize": "5",
         "time": ["16","17","18","19","20","21","22","23","24","1","2","3","4","5","6","7","8","9"],
-        "month": ["Jun","Jul","Aug","Sept"],
+        "month": ["Jun","Jul","Aug","Sep"],
         "rarity": "rare"     
        },
        {
@@ -1462,7 +1462,7 @@
         "location": "River (Mouth)",
         "shadowsize": "6",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["May","Jun","Jul","Aug","Sept"],
+        "month": ["May","Jun","Jul","Aug","Sep"],
         "rarity": "scarce"  
        },
        {
@@ -1502,7 +1502,7 @@
         "location": "Pond",
         "shadowsize": "1",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Jan","Sept","Oct","Nov","Dec"],
+        "month": ["Jan","Sep","Oct","Nov","Dec"],
         "rarity": "common" 
        },
        {
@@ -1522,7 +1522,7 @@
         "location": "Pier",
         "shadowsize": "6",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["May","Jun","Jul","Aug","Sept","Oct"],
+        "month": ["May","Jun","Jul","Aug","Sep","Oct"],
         "rarity": "scarce"  
        },
        {
@@ -1542,7 +1542,7 @@
         "location": "River",
         "shadowsize": "3",
         "time": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],
-        "month": ["Apr","May","Jun","Jul","Aug","Sept"],
+        "month": ["Apr","May","Jun","Jul","Aug","Sep"],
         "rarity": "fairly common"  
        },
        {
