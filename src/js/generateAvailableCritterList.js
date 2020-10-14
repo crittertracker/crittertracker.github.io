@@ -1,4 +1,4 @@
-function generateAvailableCritterList(hemisphere, hour, month) {
+function generateAvailableCritterList(hemisphere = getHemisphereSelection(), month = getMonthSelection(), hour = getHourSelection()) {
   let critterData = JSON.parse(
     localStorage.getItem(`${hemisphere} bug/fish data`)
   );

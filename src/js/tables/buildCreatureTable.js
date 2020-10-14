@@ -1,4 +1,4 @@
-function buildCreatureTable(availableCreatures) {
+function buildCreatureTable(availableCreatures = generateAvailableCreatureList()) {
   clearTable('seaCreatureTable');
 
   availableCreatures.creatures.forEach((creature) => {

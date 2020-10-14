@@ -1,4 +1,4 @@
-function generateAvailableCreatureList(hemisphere, month, hour) {
+function generateAvailableCreatureList(hemisphere = getHemisphereSelection(), month = getMonthSelection(), hour = getHourSelection()) {
   let creatureData = JSON.parse(localStorage.getItem(`sea creature data`));
   let availableCreatures = [];
 

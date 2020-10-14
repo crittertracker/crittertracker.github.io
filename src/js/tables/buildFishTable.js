@@ -1,4 +1,4 @@
-function buildFishTable(availableCritters, availableCreatures) {
+function buildFishTable(availableCritters = generateAvailableCritterList()) {
   clearTable('fishTable');
 
   if (!availableCritters.fish === false) {

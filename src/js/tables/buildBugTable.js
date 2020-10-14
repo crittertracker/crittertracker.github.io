@@ -1,4 +1,4 @@
-function buildBugTable(availableCritters) {
+function buildBugTable(availableCritters = generateAvailableCritterList()) {
   clearTable('bugTable');
   ///constructors so that i dont need to put in parameters?
 

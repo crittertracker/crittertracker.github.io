@@ -103,9 +103,9 @@ function show(element){
 
 function render(){
         
-    buildBugTable(generateAvailableCritterList(getHemisphereSelection(), getHourSelection(), getMonthSelection()));
-    buildCreatureTable(generateAvailableCreatureList(getHemisphereSelection(), getMonthSelection(), getHourSelection()));
-    buildFishTable(generateAvailableCritterList(getHemisphereSelection(), getHourSelection(), getMonthSelection()));
+    buildBugTable();
+    buildCreatureTable();
+    buildFishTable();
     time();
  
 
