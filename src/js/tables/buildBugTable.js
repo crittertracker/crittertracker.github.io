@@ -7,7 +7,7 @@ function buildBugTable(availableCritters = generateAvailableCritterList()) {
       bug.name.toUpperCase(),
       bug.image,
       bug.name.toLowerCase(),
-      bug.rarity.toLowerCase(),
+      bug.rarity.toUpperCase(),
       bug.price,
       bug.location.toUpperCase()
     );

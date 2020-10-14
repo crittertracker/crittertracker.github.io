@@ -6,9 +6,9 @@ function buildCreatureTable(availableCreatures = generateAvailableCreatureList()
       creature.Name.toUpperCase(),
       creature.CritterpediaImage,
       creature.Name.toLowerCase(),
-      creature.spawnRate,
+      creature.MovementSpeed.toUpperCase(),
       creature.price,
-      creature.Shadow
+      creature.Shadow.toUpperCase()
     );
 
     let creatureTableRef = document

@@ -11,7 +11,7 @@ function bugTableTemplate(
 
   template = `<tr><td><b> ${name} </b><br /><img src="${image}" class="img-fluid" alt="responsive image">
         <br /><a href="https://animalcrossing.fandom.com/wiki/${link}" target="_blank" class="btn btn-info my-1" role="button">
-        Wiki ${infoIcon}</a><hr /> ${rarity} </td><td> ${price} </td><td> ${location} </td></tr>`;
+        Wiki ${infoIcon}</a><hr /><b>Rarity:</b><br /> ${rarity} </td><td> ${price} </td><td> ${location} </td></tr>`;
 
   return template;
 }

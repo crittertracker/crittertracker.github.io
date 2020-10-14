@@ -2,7 +2,7 @@ function creatureTableTemplate(
   name,
   image,
   link,
-  spawnRate,
+  MovementSpeed,
   price,
   Shadow  
 ) {
@@ -11,7 +11,7 @@ function creatureTableTemplate(
   
     template = `<tr><td><b> ${name} </b><br /><img src="${image}" class="img-responsive">
           <br /><a href="https://animalcrossing.fandom.com/wiki/${link}" target="_blank" class="btn btn-info my-1" role="button">
-          Wiki ${infoIcon}</a><hr /><i>Spawn Rate:</i><b> ${spawnRate} </b></td><td> ${price} </td><td> ${Shadow} </td></tr>`;
+          Wiki ${infoIcon}</a><hr /><b>Speed:</b><br /> ${MovementSpeed}</td><td> ${price} </td><td> ${Shadow} </td></tr>`;
   
     return template;
 }

@@ -7,7 +7,7 @@ function buildFishTable(availableCritters = generateAvailableCritterList()) {
         fish.name.toUpperCase(),
         fish.image,
         fish.name.toLowerCase(),
-        fish.rarity.toLowerCase(),
+        fish.rarity.toUpperCase(),
         fish.price,
         fish.location.toUpperCase(),
         fish.shadowsize.toUpperCase()
