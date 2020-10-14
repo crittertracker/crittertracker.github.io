@@ -9,7 +9,7 @@ function resetHeaders(tableName, table){
             let fishHeader = table.createTHead();
             
             fishHeader.innerHTML = `<th onclick="sortTableAlpha(0, 'fishTable')">Name<br />${svgHTML}</th><th onclick="sortTableNum(1, 'fishTable')">Price<br />${svgHTML}</th>
-            <th onclick="sortTableAlpha(2, 'fishTable')">Location ${svgHTML}</th><th onclick="sortTableNum(3, 'fishTable')">Size<br />${svgHTML}</th>`;
+            <th onclick="sortTableAlpha(2, 'fishTable')">Location<br />${svgHTML}</th><th onclick="sortTableNum(3, 'fishTable')">Size<br />${svgHTML}</th>`;
 
             break;
         
@@ -26,7 +26,7 @@ function resetHeaders(tableName, table){
             
             let creatureHeader = table.createTHead();
             
-            creatureHeader.innerHTML = `<th onclick="sortTableAlpha(0, 'seaCreatureTable')">Name <br />${svgHTML}</th><th onclick="sortTableNum(1, 'seaCreatureTable')">Price<br />${svgHTML}</th><th onclick="sortTableAlpha(2, 'seaCreatureTable')">Shadow<br />${svgHTML}</th>`;
+            creatureHeader.innerHTML = `<th onclick="sortTableAlpha(0, 'seaCreatureTable')">Name<br />${svgHTML}</th><th onclick="sortTableNum(1, 'seaCreatureTable')">Price<br />${svgHTML}</th><th onclick="sortTableAlpha(2, 'seaCreatureTable')">Shadow<br />${svgHTML}</th>`;
             
             break;
 
