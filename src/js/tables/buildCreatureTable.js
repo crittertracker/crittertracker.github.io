@@ -8,6 +8,7 @@ function buildCreatureTable(availableCreatures) {
       creature.Name.toLowerCase(),
       creature.spawnRate,
       creature.price,
+      creature.Shadow
     );
 
     let creatureTableRef = document

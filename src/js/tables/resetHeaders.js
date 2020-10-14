@@ -26,7 +26,7 @@ function resetHeaders(tableName, table){
             
             let creatureHeader = table.createTHead();
             
-            creatureHeader.innerHTML = `<th onclick="sortTableAlpha(0, 'seaCreatureTable')">Name ${svgHTML}</th><th onclick="sortTableNum(1, 'seaCreatureTable')">Price ${svgHTML}</th>`;
+            creatureHeader.innerHTML = `<th onclick="sortTableAlpha(0, 'seaCreatureTable')">Name ${svgHTML}</th><th onclick="sortTableNum(1, 'seaCreatureTable')">Price ${svgHTML}</th><th onclick="sortTableAlpha(2, 'seaCreatureTable')">Shadow ${svgHTML}</th>`;
             
             break;
 
