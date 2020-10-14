@@ -8,8 +8,8 @@ function resetHeaders(tableName, table){
             
             let fishHeader = table.createTHead();
             
-            fishHeader.innerHTML = `<th onclick="sortTableAlpha(0, 'fishTable')">Name ${svgHTML}</th><th onclick="sortTableNum(1, 'fishTable')">Price ${svgHTML}</th>
-            <th onclick="sortTableAlpha(2, 'fishTable')">Location ${svgHTML}</th><th onclick="sortTableNum(3, 'fishTable')">Size ${svgHTML}</th>`;
+            fishHeader.innerHTML = `<th onclick="sortTableAlpha(0, 'fishTable')">Name<br />${svgHTML}</th><th onclick="sortTableNum(1, 'fishTable')">Price<br />${svgHTML}</th>
+            <th onclick="sortTableAlpha(2, 'fishTable')">Location ${svgHTML}</th><th onclick="sortTableNum(3, 'fishTable')">Size<br />${svgHTML}</th>`;
 
             break;
         
@@ -17,8 +17,8 @@ function resetHeaders(tableName, table){
             
             let bugHeader = table.createTHead();
             
-            bugHeader.innerHTML = `<th onclick="sortTableAlpha(0, 'bugTable')">Name ${svgHTML}</th><th onclick="sortTableNum(1, 'bugTable')">Price ${svgHTML}</th>
-            <th onclick="sortTableAlpha(2, 'bugTable')">Location ${svgHTML}</th>`;
+            bugHeader.innerHTML = `<th onclick="sortTableAlpha(0, 'bugTable')">Name<br />${svgHTML}</th><th onclick="sortTableNum(1, 'bugTable')">Price<br />${svgHTML}</th>
+            <th onclick="sortTableAlpha(2, 'bugTable')">Location<br />${svgHTML}</th>`;
 
             break;
         
@@ -26,7 +26,7 @@ function resetHeaders(tableName, table){
             
             let creatureHeader = table.createTHead();
             
-            creatureHeader.innerHTML = `<th onclick="sortTableAlpha(0, 'seaCreatureTable')">Name ${svgHTML}</th><th onclick="sortTableNum(1, 'seaCreatureTable')">Price ${svgHTML}</th><th onclick="sortTableAlpha(2, 'seaCreatureTable')">Shadow ${svgHTML}</th>`;
+            creatureHeader.innerHTML = `<th onclick="sortTableAlpha(0, 'seaCreatureTable')">Name <br />${svgHTML}</th><th onclick="sortTableNum(1, 'seaCreatureTable')">Price<br />${svgHTML}</th><th onclick="sortTableAlpha(2, 'seaCreatureTable')">Shadow<br />${svgHTML}</th>`;
             
             break;
 
